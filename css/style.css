@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, rgba(92, 2, 2, 0.897), rgb(53, 6, 6));    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: #000;
+    width: 400px;
+    height: 80vh;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.conteudo {
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+
+}
+
+table {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    color: #eee;
+}
+
+#result {
+    width: 100%;
+    height: 100px;
+    background-color: #eee;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 30px;
+}
+
+#result span {
+    padding: 15px;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+tr {
+    width: 100%;
+    display: flex;
+}
+
+td {
+    width: 25%;
+    height: 70px;
+    padding: 0;
+    margin: 2px;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: #333;
+    color: #eee;
+    font-size: 28px;
+    height: 70px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+}
+
+.ac, .especial, .confirme {
+    background-color: rgb(18, 146, 146);
+}
+
+.btn:hover {
+    background-color: rgba(98, 123, 129, 0.438);
+}
+
