@@ -6,3 +6,5 @@ https://lnkd.in/d5sycdVv
 
 Link do Repositorio: 
 https://lnkd.in/dnFfyXft
+
+(https://github.com/ffernandescs/Calculadora-JS/blob/main/img/app.png)
